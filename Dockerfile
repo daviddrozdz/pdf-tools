@@ -1,5 +1,5 @@
 # =============================================================================
-# PDFCraft Production Dockerfile
+# PDF Toolkit Production Dockerfile
 # Multi-stage build for optimized image size
 # Optimized with BuildKit cache mounts for faster builds
 # =============================================================================
@@ -38,9 +38,9 @@ FROM nginx:1.25-alpine AS production
 
 # Add labels for GitHub Container Registry
 LABEL org.opencontainers.image.source="https://github.com/PDFCraftTool/pdfcraft"
-LABEL org.opencontainers.image.description="PDFCraft - Professional PDF Tools, Free, Private & Browser-Based"
+LABEL org.opencontainers.image.description="PDF Toolkit - Professional PDF Tools, Free, Private & Browser-Based"
 LABEL org.opencontainers.image.licenses="AGPL-3.0"
-LABEL org.opencontainers.image.title="PDFCraft"
+LABEL org.opencontainers.image.title="PDF Toolkit"
 LABEL org.opencontainers.image.vendor="PDFCraftTool"
 
 # Copy custom nginx configuration

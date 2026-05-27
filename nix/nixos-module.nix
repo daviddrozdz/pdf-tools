@@ -5,13 +5,13 @@ let
 in
 {
   options.services.pdfcraft = {
-    enable = lib.mkEnableOption "PDFCraft - Professional PDF Tools";
+    enable = lib.mkEnableOption "PDF Toolkit - Professional PDF Tools";
 
     package = lib.mkOption {
       type = lib.types.package;
       default = pkgs.pdfcraft;
       defaultText = lib.literalExpression "pkgs.pdfcraft";
-      description = "The PDFCraft package to use.";
+      description = "The PDF Toolkit package to use.";
     };
 
     port = lib.mkOption {
@@ -35,7 +35,7 @@ in
     ];
 
     systemd.services.pdfcraft = {
-      description = "PDFCraft PDF Tools";
+      description = "PDF Toolkit PDF Tools";
       after = [ "network.target" ];
       wantedBy = [ "multi-user.target" ];
 

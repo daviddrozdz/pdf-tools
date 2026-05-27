@@ -101,9 +101,9 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.version }}
-          name: PDFCraft ${{ steps.version.outputs.version }}
+          name: PDF Toolkit ${{ steps.version.outputs.version }}
           body: |
-            ## 🚀 PDFCraft Release ${{ steps.version.outputs.version }}
+            ## 🚀 PDF Toolkit Release ${{ steps.version.outputs.version }}
 
             ### 📦 Download & Install
             Download the appropriate file for your platform:

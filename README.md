@@ -1,7 +1,7 @@
-# PDFCraft
+# PDF Toolkit
 
 <div align="center">
-  <img src="public/images/logo.png" alt="PDFCraft Logo" width="120" height="120" />
+  <img src="public/images/logo.png" alt="PDF Toolkit Logo" width="120" height="120" />
   <h1>Professional PDF Tools</h1>
   <p>
     <strong>Free, Private & Browser-Based</strong>
@@ -23,7 +23,7 @@
 
 ## 📖 About
 
-**PDFCraft** is a comprehensive suite of PDF tools designed for privacy and performance. Unlike many online converters, PDFCraft processes your files entirely within your browser using WebAssembly technology. Your documents **never** leave your device, ensuring maximum security for your sensitive data.
+**PDF Toolkit** is a comprehensive suite of PDF tools designed for privacy and performance. Unlike many online converters, PDF Toolkit processes your files entirely within your browser using WebAssembly technology. Your documents **never** leave your device, ensuring maximum security for your sensitive data.
 
 This project is built with modern web technologies to provide a slick, app-like experience directly in the browser.
 
@@ -39,7 +39,7 @@ This project is built with modern web technologies to provide a slick, app-like 
 
 > ⚠️ **Early Development Notice**: This feature is currently in early development stage. You may encounter bugs or incomplete functionality. We appreciate your feedback and patience!
 
-PDFCraft includes a powerful **visual workflow editor** that allows you to chain multiple PDF operations together, creating automated processing pipelines.
+PDF Toolkit includes a powerful **visual workflow editor** that allows you to chain multiple PDF operations together, creating automated processing pipelines.
 
 <div align="center">
   <img src="public/images/workflow-editor-screenshot.png" alt="Workflow Editor Screenshot" width="800" />
@@ -238,11 +238,11 @@ To run this project locally, follow these steps:
 
 ### 🐳 Docker
 
-PDFCraft provides both pre-built Docker images and Docker Compose for flexible deployment options.
+PDF Toolkit provides both pre-built Docker images and Docker Compose for flexible deployment options.
 
 #### Option 1: Use Pre-built Image (Recommended)
 
-The easiest way to run PDFCraft is using our pre-built image from GitHub Container Registry:
+The easiest way to run PDF Toolkit is using our pre-built image from GitHub Container Registry:
 
 ```bash
 # Pull the latest image
@@ -252,7 +252,7 @@ docker pull ghcr.io/pdfcrafttool/pdfcraft:latest
 docker run -d -p 8080:80 --name pdfcraft ghcr.io/pdfcrafttool/pdfcraft:latest
 ```
 
-Open [http://localhost:8080](http://localhost:8080) to access PDFCraft.
+Open [http://localhost:8080](http://localhost:8080) to access PDF Toolkit.
 
 **Available tags:**
 | Tag | Description |
@@ -290,7 +290,7 @@ docker compose down
 
 #### 🌐 Subpath Deployment (basePath Support)
 
-PDFCraft supports deployment under a subpath (e.g., `https://your-domain.com/pdfcraft/`). To enable this, you must specify the base path during the build process.
+PDF Toolkit supports deployment under a subpath (e.g., `https://your-domain.com/pdfcraft/`). To enable this, you must specify the base path during the build process.
 
 **Using Docker Build:**
 ```bash
@@ -321,7 +321,7 @@ services:
 
 ## 🚀 Production Deployment Guide
 
-PDFCraft is configured for static export (`output: 'export'`), which means it can be deployed to any service that supports static website hosting without requiring a Node.js server.
+PDF Toolkit is configured for static export (`output: 'export'`), which means it can be deployed to any service that supports static website hosting without requiring a Node.js server.
 
 > 📖 **For comprehensive deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md)**
 
@@ -375,9 +375,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🤝 Acknowledgements
 
-PDFCraft stands on the shoulders of giants. We gratefully acknowledge [BentoPDF](https://github.com/alam00000/bentopdf) for their pioneering work in privacy-first, client-side PDF tools.
+PDF Toolkit stands on the shoulders of giants. We gratefully acknowledge [BentoPDF](https://github.com/alam00000/bentopdf) for their pioneering work in privacy-first, client-side PDF tools.
 
-Their project served as a significant inspiration and reference for our core logic. While PDFCraft has been re-engineered for the Next.js ecosystem and extends functionality with unique features like the *Workflow Editor*, we deeply respect the foundation laid by the BentoPDF team.
+Their project served as a significant inspiration and reference for our core logic. While PDF Toolkit has been re-engineered for the Next.js ecosystem and extends functionality with unique features like the *Workflow Editor*, we deeply respect the foundation laid by the BentoPDF team.
 
 ## 📄 License
 
@@ -386,5 +386,5 @@ This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE)
 ---
 
 <div align="center">
-  Built with ❤️ by the PDFCraft Team
+  Built with ❤️ by the PDF Toolkit Team
 </div>

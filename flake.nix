@@ -1,5 +1,5 @@
 {
-  description = "PDFCraft - Professional PDF Tools, Free, Private & Browser-Based";
+  description = "PDF Toolkit - Professional PDF Tools, Free, Private & Browser-Based";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

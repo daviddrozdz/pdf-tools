@@ -1,4 +1,4 @@
-# PDFCraft — How to Launch
+# PDF Toolkit — How to Launch
 
 Quick reference for running this repo locally or with Docker.
 
